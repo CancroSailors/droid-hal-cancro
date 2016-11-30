@@ -2,7 +2,7 @@
 %define device cancro
 %define vendor xiaomi
 %define vendor_pretty Xiaomi
-%define device_pretty Mi 3
+%define device_pretty Cancro
 %define installable_zip 1
 %define straggler_files \
 /init.class_main.sh\
