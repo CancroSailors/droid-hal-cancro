@@ -22,6 +22,10 @@
 /usr/bin/groupadd-user media_rw || :\
 %{nil}
 
+#For Jolla store
 %define community_adaptation 1
+
+#For OTA
+%define enable_kernel_update 1
 
 %include rpm/dhd/droid-hal-device.inc
