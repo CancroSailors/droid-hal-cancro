@@ -22,4 +22,6 @@
 /usr/bin/groupadd-user media_rw || :\
 %{nil}
 
+%define community_adaptation 1
+
 %include rpm/dhd/droid-hal-device.inc
